@@ -74,6 +74,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="UserDashboard.Designer.vb">
+      <DependentUpon>UserDashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserDashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="LoginForm.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -115,6 +121,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RegisterForm.resx">
       <DependentUpon>RegisterForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserDashboard.resx">
+      <DependentUpon>UserDashboard.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
